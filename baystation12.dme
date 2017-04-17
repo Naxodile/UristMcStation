@@ -2221,6 +2221,7 @@
 #include "code\modules\urist\items\guns.dm"
 #include "code\modules\urist\items\miscitems.dm"
 #include "code\modules\urist\items\papercrafts.dm"
+#include "code\modules\urist\items\radios.dm"
 #include "code\modules\urist\items\razor.dm"
 #include "code\modules\urist\items\scissors.dm"
 #include "code\modules\urist\items\storeitems.dm"
