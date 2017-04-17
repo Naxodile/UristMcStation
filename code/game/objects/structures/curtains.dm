@@ -2,13 +2,15 @@
 	name = "curtain"
 	icon = 'icons/obj/curtain.dmi'
 	icon_state = "closed"
-	plane = ABOVE_HUMAN_PLANE
-	layer = ABOVE_HUMAN_LAYER
+	plane = OBJ_PLANE
+	layer = ABOVE_WINDOW_LAYER
 	opacity = 1
 	density = 0
 
 /obj/structure/curtain/open
 	icon_state = "open"
+	plane = ABOVE_HUMAN_PLANE
+	layer = ABOVE_HUMAN_LAYER
 	opacity = 0
 
 /obj/structure/curtain/bullet_act(obj/item/projectile/P, def_zone)
