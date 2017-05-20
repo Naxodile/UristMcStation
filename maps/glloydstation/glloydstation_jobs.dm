@@ -64,7 +64,7 @@
 	economic_modifier = 1
 	access = list(access_maint_tunnels, access_mime, access_theatre)
 	minimal_access = list(access_mime, access_theatre)
-	minimal_player_age = 10
+	minimal_player_age = 1
 	outfit_type = /decl/hierarchy/outfit/job/mime
 
 /datum/job/mime/equip(var/mob/living/carbon/human/H)
@@ -101,7 +101,7 @@
 	economic_modifier = 1
 	access = list(access_maint_tunnels, access_clown, access_theatre)
 	minimal_access = list(access_clown, access_theatre)
-	minimal_player_age = 10
+	minimal_player_age = 1
 	outfit_type = /decl/hierarchy/outfit/job/clown
 
 /datum/job/clown/equip(var/mob/living/carbon/human/H)
@@ -130,7 +130,7 @@
 	supervisors = "whichever head you protect. Remember, you are NOT security. Ultimately, you report to Nanotrasen, but if unavailable, defer to the Captain."
 	selection_color = "#ddddff"
 	req_admin_notify = 1
-	minimal_player_age = 8
+	minimal_player_age = 7
 	economic_modifier = 15
 	outfit_type = /decl/hierarchy/outfit/job/blueshield
 	access = list(access_security, access_sec_doors, access_court, access_forensics_lockers,
